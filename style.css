@@ -125,13 +125,14 @@ header .hamburger-menu img {
 
 .partners-section {
   background-color: #424145;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .partners-section .partners-section-header {
   text-align: center;
   position: static;
   padding: 0;
   color: #f5f5f5;
-  padding-top: 30px;
 }
 .partners-section .partners-section-header h2 {
   font-weight: 600;
@@ -140,6 +141,17 @@ header .hamburger-menu img {
   width: 50px;
   margin: 15px auto;
   border-color: #ec5242;
+}
+.partners-section .partners-body-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.partners-section .partners-body-container img {
+  width: auto;
+  height: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
