@@ -5,6 +5,10 @@
   font-family: "Lato", sans-serif;
 }
 
+a {
+  color: inherit;
+}
+
 .container {
   padding-left: 16px;
   padding-right: 16px;
@@ -173,6 +177,37 @@ footer .container .small-footer-text {
   text-align: left;
   color: #545454;
   line-height: 20px;
+}
+
+.about-page-section {
+  background-color: #f7f7f7;
+  background-image: url(assets/about_page_bg.png);
+  background-position: center;
+  text-align: center;
+}
+.about-page-section .about-page-supporting-text-container {
+  background-color: white;
+  border-color: #d3d3d3;
+  border-width: 2px;
+}
+.about-page-section .about-page-supporting-text-container .about-page-supporting-text {
+  font-size: 2.5vh;
+  color: #545454;
+  line-height: 30px;
+}
+.about-page-section .contact-us-text {
+  text-align: center;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  font-size: 2.5vh;
+  color: #545454;
+  line-height: 30px;
+}
+.about-page-section a {
+  color: #272a31;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=style.css.map */
