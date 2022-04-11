@@ -10,4 +10,62 @@
   padding-right: 16px;
 }
 
+header {
+  height: 55px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-left: 30px;
+  padding-top: 16px;
+}
+header .hamburger-menu img {
+  width: 20px;
+}
+
+.welcome {
+  height: 90vh;
+  width: 100%;
+  background-image: url(assets/headline_bg_photo.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.welcome .main-headline {
+  font-size: 10vw;
+  font-weight: 700;
+  color: #ec5242;
+  text-transform: uppercase;
+}
+.welcome .supporting-headline {
+  font-size: 5vw;
+  font-weight: 300;
+  color: #ec5242;
+}
+.welcome .supporting-text-container {
+  font-size: 3.5vw;
+  margin-top: 20px;
+  width: 100%;
+  background-color: #f7f7f7;
+  border: 3px solid white;
+}
+.welcome .supporting-text-container .supporting-text {
+  color: #545454;
+  padding: 25px;
+}
+.welcome .date-text {
+  font-size: 8vw;
+  color: #545454;
+  margin-top: 20px;
+}
+.welcome .place-text {
+  font-size: 4vw;
+  font-weight: 400;
+  color: #545454;
+  margin-top: 8px;
+}
+
 /*# sourceMappingURL=style.css.map */
