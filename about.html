@@ -27,12 +27,12 @@
       </div>
     </div>
     <!-- top toolbar -->
-    <!-- logo and nav starts here -->
+    <!-- logo and nav start here -->
     <div class="container nav-menu-container">
       <a class="logo-container" href="index.html"><img class="logo" src="assets/world_tomato_forum_logo.svg" alt=""></a>
       <nav>
         <ul>
-          <li><a id="active" href="about.html">About</a></li>
+          <li><a class="active" href="about.html">About</a></li>
           <li><a href="index.html/#program">Program</a></li>
           <li><a href="index.html#speakers">Speakers</a></li>
           <li><a href="index.html/#partners">Partners</a></li>
@@ -45,7 +45,20 @@
       <img src="assets/mobile_menu.png" alt="">
     </a>
   </header>
-  <!-- logo and nav ends here"> -->
+  <!-- logo and nav end here"> -->
+  <!--mobile nav starts here-->
+  <nav class="mobile-nav">
+    <a class="close-button" href="#">
+      <img src="assets/close_button.svg" alt="">
+    </a>
+    <ul>
+      <li><a class="active" href="about.html">About</a></li>
+      <li><a href="index.html/#program">Program</a></li>
+      <li><a href="index.html#speakers">Speakers</a></li>
+      <li><a href="index.html/#partners">Partners</a></li>
+    </ul>
+  </nav>
+  <!--mobile nav ends here-->
   <section class="welcome about-page-section">
     <div class="container about-page-container">
 
@@ -144,6 +157,7 @@
 
     </div>
   </footer>
+  <script src="script.js"></script>
 </body>
 
 </html>

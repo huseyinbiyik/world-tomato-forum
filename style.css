@@ -30,7 +30,7 @@ header {
   padding-top: 16px;
 }
 header .hamburger-menu img {
-  width: 20px;
+  width: 25px;
 }
 
 .toolbar {
@@ -490,7 +490,7 @@ footer .container .small-footer-text .footer-text-desktop {
     display: inline;
   }
 
-  #active {
+  .active {
     color: #ec5242;
   }
 
@@ -545,6 +545,41 @@ footer .container .small-footer-text .footer-text-desktop {
   .previous-events .container .previous-events-body .prev-second-img {
     margin: 0;
   }
+
+  .mobile-nav {
+    display: none;
+  }
+}
+.mobile-nav {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: #d3d3d3;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(assets/about_page_bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.mobile-nav .close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+}
+.mobile-nav .close-button img {
+  width: 40px;
+}
+.mobile-nav li {
+  margin-top: 20px;
+}
+.mobile-nav li a {
+  font-size: 48px;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
