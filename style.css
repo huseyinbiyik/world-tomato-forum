@@ -27,6 +27,40 @@ header .hamburger-menu img {
   width: 20px;
 }
 
+.toolbar {
+  width: 100%;
+  height: 36px;
+  background-color: #3e3e3e;
+}
+.toolbar .toolbar-menu {
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  align-items: center;
+}
+.toolbar .toolbar-menu .social-media-container {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  gap: 10px;
+}
+.toolbar .toolbar-menu .social-media-container a {
+  height: 18px;
+}
+.toolbar .toolbar-menu .social-media-container a img {
+  height: 18px;
+}
+.toolbar .toolbar-menu .toolbar-menu-items {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.toolbar .toolbar-menu .toolbar-menu-items a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
 .welcome {
   height: 90vh;
   width: 100%;
@@ -298,6 +332,23 @@ footer .container .small-footer-text {
 .previous-events .previous-events-body .prev-second-img {
   background-image: url(assets/2021_event.jpeg);
   margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding-left: 200px;
+    padding-right: 200px;
+    margin: 0 auto;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+
+  header {
+    padding: 0;
+    margin: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
