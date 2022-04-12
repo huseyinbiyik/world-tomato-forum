@@ -199,6 +199,9 @@ header .hamburger-menu img {
   padding: 35px 30px;
   font-size: 3vh;
 }
+.program-section .program-button-desktop {
+  display: none;
+}
 
 .partners-section {
   background-color: #424145;
@@ -250,6 +253,9 @@ footer .container .small-footer-text {
   text-align: left;
   color: #545454;
   line-height: 20px;
+}
+footer .container .small-footer-text .footer-text-desktop {
+  display: none;
 }
 
 .about-page-section {
@@ -449,6 +455,31 @@ footer .container .small-footer-text {
     text-transform: uppercase;
     color: white;
     margin: 0 auto;
+    display: inline;
+  }
+
+  footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  footer .container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+  }
+  footer .container img {
+    width: 30%;
+  }
+  footer .container .small-footer-text {
+    font-size: 2vh;
+    text-align: left;
+    color: #545454;
+    line-height: 20px;
+  }
+  footer .container .small-footer-text .footer-text-desktop {
+    display: inline;
   }
 }
 
