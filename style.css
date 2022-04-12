@@ -167,6 +167,9 @@ header .hamburger-menu img {
   margin-top: 20px;
   margin-bottom: 50px;
 }
+.program-section .program-body-container .program-cards:hover {
+  border: 1px solid white;
+}
 .program-section .program-body-container .program-cards {
   display: flex;
   align-items: center;
@@ -174,6 +177,7 @@ header .hamburger-menu img {
   background-color: rgba(255, 255, 255, 0.1);
   padding-top: 20px;
   padding-bottom: 20px;
+  border: 1px solid rgba(255, 255, 255, 0);
 }
 .program-section .program-body-container .program-cards h3 {
   color: #ec5242;
@@ -417,6 +421,34 @@ footer .container .small-footer-text {
   }
   .welcome .welcome-container .place-text {
     font-size: 2vw;
+  }
+
+  .program-section {
+    text-align: center;
+  }
+  .program-section .program-body-container {
+    flex-direction: row;
+    column-gap: 4px;
+  }
+  .program-section .program-body-container .program-cards {
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    padding-left: 0;
+    padding-right: 0;
+    gap: 15px;
+  }
+  .program-section .program-body-container .program-cards p {
+    text-align: center;
+    width: 70%;
+  }
+  .program-section .join-button {
+    display: none;
+  }
+  .program-section .program-button-desktop {
+    text-transform: uppercase;
+    color: white;
+    margin: 0 auto;
   }
 }
 
