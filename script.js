@@ -12,7 +12,11 @@ closeButton.addEventListener('click', () => {
 });
 
 let links = document.querySelectorAll('.link');
-alert(links.nodeList);
+Array.from(links).forEach(link => {
+  link.addEventListener('click', () => {
+    navigation.style.display = 'none';
+  })});
+
 //mobile navigation
 
 //speakers section
