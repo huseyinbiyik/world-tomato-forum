@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: "Lato", sans-serif;
+  scroll-behavior: smooth;
 }
 
 ul {
@@ -206,8 +207,17 @@ header .hamburger-menu img {
 .speakers-section {
   text-align: center;
   background-color: white;
+  padding-bottom: 100px;
+}
+.speakers-section .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 40px;
 }
 .speakers-section .container .speakers-section-header {
+  margin-top: 50px;
+  margin-bottom: 50px;
   position: static;
   padding: 0;
 }
@@ -219,45 +229,45 @@ header .hamburger-menu img {
   margin: 15px auto;
   border-color: #ec5242;
 }
-.speakers-section .container .speakers-cards-container {
+.speakers-section .container .speakers-card {
   display: flex;
   align-items: center;
   justify-content: center;
   column-gap: 20px;
   width: 100%;
 }
-.speakers-section .container .speakers-cards-container .speakers-image {
+.speakers-section .container .speakers-card .speakers-image {
   width: 170px;
   height: 170px;
   background-image: url(assets/decorative_chess_shape.gif);
   background-size: 80px;
   background-repeat: no-repeat;
 }
-.speakers-section .container .speakers-cards-container .speakers-image img {
+.speakers-section .container .speakers-card .speakers-image img {
   padding-left: 15px;
   padding-top: 15px;
   width: 150px;
   height: auto;
 }
-.speakers-section .container .speakers-cards-container .speaker-info {
+.speakers-section .container .speakers-card .speaker-info {
   text-align: left;
   display: flex;
   flex-direction: column;
   row-gap: 8px;
 }
-.speakers-section .container .speakers-cards-container .speaker-info .speaker-name {
+.speakers-section .container .speakers-card .speaker-info .speaker-name {
   font-size: 20px;
   font-weight: 800;
 }
-.speakers-section .container .speakers-cards-container .speaker-info .speaker-title {
+.speakers-section .container .speakers-card .speaker-info .speaker-title {
   font-size: 16px;
   color: #ec5242;
   font-style: italic;
 }
-.speakers-section .container .speakers-cards-container .speaker-info .speaker-hr {
+.speakers-section .container .speakers-card .speaker-info .speaker-hr {
   width: 20px;
 }
-.speakers-section .container .speakers-cards-container .speaker-info .speaker-about {
+.speakers-section .container .speakers-card .speaker-info .speaker-about {
   font-size: 15px;
   font-weight: 400;
 }
@@ -541,45 +551,45 @@ footer .container .small-footer-text .footer-text-desktop {
     margin: 15px auto;
     border-color: #ec5242;
   }
-  .speakers-section .container .speakers-cards-container {
+  .speakers-section .container .speakers-card {
     display: flex;
     align-items: center;
     justify-content: center;
     column-gap: 20px;
     width: 50%;
   }
-  .speakers-section .container .speakers-cards-container .speakers-image {
+  .speakers-section .container .speakers-card .speakers-image {
     width: 170px;
     height: 170px;
     background-image: url(assets/decorative_chess_shape.gif);
     background-size: 80px;
     background-repeat: no-repeat;
   }
-  .speakers-section .container .speakers-cards-container .speakers-image img {
+  .speakers-section .container .speakers-card .speakers-image img {
     padding-left: 15px;
     padding-top: 15px;
     width: 150px;
     height: auto;
   }
-  .speakers-section .container .speakers-cards-container .speaker-info {
+  .speakers-section .container .speakers-card .speaker-info {
     text-align: left;
     display: flex;
     flex-direction: column;
     row-gap: 8px;
   }
-  .speakers-section .container .speakers-cards-container .speaker-info .speaker-name {
+  .speakers-section .container .speakers-card .speaker-info .speaker-name {
     font-size: 20px;
     font-weight: 800;
   }
-  .speakers-section .container .speakers-cards-container .speaker-info .speaker-title {
+  .speakers-section .container .speakers-card .speaker-info .speaker-title {
     font-size: 16px;
     color: #ec5242;
     font-style: italic;
   }
-  .speakers-section .container .speakers-cards-container .speaker-info .speaker-hr {
+  .speakers-section .container .speakers-card .speaker-info .speaker-hr {
     width: 20px;
   }
-  .speakers-section .container .speakers-cards-container .speaker-info .speaker-about {
+  .speakers-section .container .speakers-card .speaker-info .speaker-about {
     font-size: 15px;
     font-weight: 400;
   }
