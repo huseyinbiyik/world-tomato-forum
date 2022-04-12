@@ -274,6 +274,9 @@ footer .container .small-footer-text .footer-text-desktop {
   color: #545454;
   line-height: 30px;
 }
+.about-page-section .about-page-supporting-text-container .about-page-supporting-text .headline-text-desktop {
+  display: none;
+}
 .about-page-section .contact-us-text {
   text-align: center;
   margin-top: 30px;
@@ -480,6 +483,40 @@ footer .container .small-footer-text .footer-text-desktop {
   }
   footer .container .small-footer-text .footer-text-desktop {
     display: inline;
+  }
+
+  #active {
+    color: #ec5242;
+  }
+
+  .about-page-section .about-page-container .supporting-headline {
+    display: none;
+  }
+  .about-page-section .about-page-container .main-headline {
+    font-size: 5vw;
+  }
+  .about-page-section .about-page-container .about-page-supporting-text-container .about-page-supporting-text {
+    padding: 3.5vw;
+    font-size: 2.3vh;
+    color: #545454;
+    line-height: 30px;
+  }
+  .about-page-section .about-page-container .about-page-supporting-text-container .about-page-supporting-text .headline-text-desktop {
+    display: inline;
+  }
+  .about-page-section .about-page-container .contact-us-text {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    font-size: 2.5vh;
+    color: #545454;
+    line-height: 30px;
+  }
+  .about-page-section .about-page-container a {
+    color: #272a31;
+    font-weight: 600;
   }
 }
 
