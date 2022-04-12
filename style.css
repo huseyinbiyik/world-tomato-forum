@@ -326,6 +326,10 @@ footer .container .small-footer-text .footer-text-desktop {
   margin-bottom: 40px;
 }
 
+#logo-text-desktop {
+  display: none;
+}
+
 .previous-events {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -504,19 +508,26 @@ footer .container .small-footer-text .footer-text-desktop {
   .about-page-section .about-page-container .about-page-supporting-text-container .about-page-supporting-text .headline-text-desktop {
     display: inline;
   }
-  .about-page-section .about-page-container .contact-us-text {
-    text-align: center;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    font-size: 2.5vh;
-    color: #545454;
-    line-height: 30px;
+
+  .our-logo {
+    padding-top: 80px;
+    padding-bottom: 60px;
   }
-  .about-page-section .about-page-container a {
-    color: #272a31;
-    font-weight: 600;
+  .our-logo .our-logo-body p {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .our-logo .our-logo-body img {
+    width: 60%;
+    padding: 30px;
+    border: 1px solid #d3d3d3;
+    box-sizing: border-box;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  #logo-text-desktop {
+    display: inline;
   }
 }
 
