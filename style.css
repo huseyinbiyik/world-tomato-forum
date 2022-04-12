@@ -373,7 +373,6 @@ footer .container .small-footer-text {
   .container {
     padding-left: 10%;
     padding-right: 10%;
-    margin: 0 auto;
   }
 
   .hamburger-menu {
@@ -391,6 +390,33 @@ footer .container .small-footer-text {
 
   .nav-menu-container {
     display: flex;
+  }
+
+  .welcome {
+    margin-top: 106px;
+    height: calc(100vh - 106px);
+  }
+  .welcome .welcome-container {
+    text-align: left;
+    width: 100%;
+  }
+  .welcome .welcome-container .supporting-headline {
+    font-size: 3.5vw;
+  }
+  .welcome .welcome-container .main-headline {
+    font-size: 7vw;
+  }
+  .welcome .welcome-container .supporting-text-container {
+    width: 45vw;
+  }
+  .welcome .welcome-container .supporting-text-container .supporting-text {
+    font-size: 1.2vw;
+  }
+  .welcome .welcome-container .date-text {
+    font-size: 2.5vw;
+  }
+  .welcome .welcome-container .place-text {
+    font-size: 2vw;
   }
 }
 
