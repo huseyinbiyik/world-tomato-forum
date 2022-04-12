@@ -203,6 +203,65 @@ header .hamburger-menu img {
   display: none;
 }
 
+.speakers-section {
+  text-align: center;
+  background-color: white;
+}
+.speakers-section .container .speakers-section-header {
+  position: static;
+  padding: 0;
+}
+.speakers-section .container .speakers-section-header h2 {
+  font-weight: 600;
+}
+.speakers-section .container .speakers-section-header .speakers-section-header-hr {
+  width: 50px;
+  margin: 15px auto;
+  border-color: #ec5242;
+}
+.speakers-section .container .speakers-cards-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 20px;
+  width: 100%;
+}
+.speakers-section .container .speakers-cards-container .speakers-image {
+  width: 170px;
+  height: 170px;
+  background-image: url(assets/decorative_chess_shape.gif);
+  background-size: 80px;
+  background-repeat: no-repeat;
+}
+.speakers-section .container .speakers-cards-container .speakers-image img {
+  padding-left: 15px;
+  padding-top: 15px;
+  width: 150px;
+  height: auto;
+}
+.speakers-section .container .speakers-cards-container .speaker-info {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.speakers-section .container .speakers-cards-container .speaker-info .speaker-name {
+  font-size: 20px;
+  font-weight: 800;
+}
+.speakers-section .container .speakers-cards-container .speaker-info .speaker-title {
+  font-size: 16px;
+  color: #ec5242;
+  font-style: italic;
+}
+.speakers-section .container .speakers-cards-container .speaker-info .speaker-hr {
+  width: 20px;
+}
+.speakers-section .container .speakers-cards-container .speaker-info .speaker-about {
+  font-size: 15px;
+  font-weight: 400;
+}
+
 .partners-section {
   background-color: #424145;
   padding-top: 40px;
@@ -466,6 +525,65 @@ footer .container .small-footer-text .footer-text-desktop {
     display: inline;
   }
 
+  .speakers-section {
+    text-align: center;
+    background-color: white;
+  }
+  .speakers-section .container .speakers-section-header {
+    position: static;
+    padding: 0;
+  }
+  .speakers-section .container .speakers-section-header h2 {
+    font-weight: 600;
+  }
+  .speakers-section .container .speakers-section-header .speakers-section-header-hr {
+    width: 50px;
+    margin: 15px auto;
+    border-color: #ec5242;
+  }
+  .speakers-section .container .speakers-cards-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    width: 50%;
+  }
+  .speakers-section .container .speakers-cards-container .speakers-image {
+    width: 170px;
+    height: 170px;
+    background-image: url(assets/decorative_chess_shape.gif);
+    background-size: 80px;
+    background-repeat: no-repeat;
+  }
+  .speakers-section .container .speakers-cards-container .speakers-image img {
+    padding-left: 15px;
+    padding-top: 15px;
+    width: 150px;
+    height: auto;
+  }
+  .speakers-section .container .speakers-cards-container .speaker-info {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+  }
+  .speakers-section .container .speakers-cards-container .speaker-info .speaker-name {
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .speakers-section .container .speakers-cards-container .speaker-info .speaker-title {
+    font-size: 16px;
+    color: #ec5242;
+    font-style: italic;
+  }
+  .speakers-section .container .speakers-cards-container .speaker-info .speaker-hr {
+    width: 20px;
+  }
+  .speakers-section .container .speakers-cards-container .speaker-info .speaker-about {
+    font-size: 15px;
+    font-weight: 400;
+  }
+
   footer {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -537,10 +655,13 @@ footer .container .small-footer-text .footer-text-desktop {
   }
   .previous-events .container .previous-events-body {
     display: flex;
+    justify-content: center;
+    column-gap: 2vw;
   }
   .previous-events .container .previous-events-body .previous-event-img-container {
     width: 40%;
     height: 280px;
+    margin: 0;
   }
   .previous-events .container .previous-events-body .prev-second-img {
     margin: 0;
