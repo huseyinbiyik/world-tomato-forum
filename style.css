@@ -311,6 +311,7 @@ footer .container .small-footer-text .footer-text-desktop {
 }
 .our-logo .our-logo-body {
   text-align: center;
+  margin-top: 30px;
 }
 .our-logo .our-logo-body p {
   font-size: 2.5vh;
@@ -335,31 +336,31 @@ footer .container .small-footer-text .footer-text-desktop {
   padding-bottom: 40px;
   border-top: 1px solid #d3d3d3;
 }
-.previous-events .previous-events-header {
+.previous-events .container {
+  text-align: center;
+}
+.previous-events .container .previous-events-header {
   position: static;
   padding: 0;
   text-align: center;
 }
-.previous-events .previous-events-header h2 {
+.previous-events .container .previous-events-header h2 {
   color: #272a31;
 }
-.previous-events .previous-events-header .our-logo-hr {
+.previous-events .container .previous-events-header .our-logo-hr {
   width: 30px;
   margin: 15px auto;
   border-color: #ec5242;
 }
-.previous-events .previous-events-body {
-  text-align: center;
-}
-.previous-events .previous-events-body .container {
-  text-align: center;
-}
-.previous-events .previous-events-body p {
+.previous-events .container p {
   color: #545454;
   margin-top: 20px;
   margin-bottom: 30px;
 }
-.previous-events .previous-events-body .previous-event-img-container {
+.previous-events .container .previous-events-body {
+  text-align: center;
+}
+.previous-events .container .previous-events-body .previous-event-img-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -373,15 +374,15 @@ footer .container .small-footer-text .footer-text-desktop {
   background-blend-mode: multiply;
   text-decoration: none;
 }
-.previous-events .previous-events-body .previous-event-img-container p {
+.previous-events .container .previous-events-body .previous-event-img-container p {
   color: white;
   font-size: 4vh;
 }
-.previous-events .previous-events-body .previous-event-img-container p strong {
+.previous-events .container .previous-events-body .previous-event-img-container p strong {
   font-weight: 800;
   font-size: 5vh;
 }
-.previous-events .previous-events-body .prev-second-img {
+.previous-events .container .previous-events-body .prev-second-img {
   background-image: url(assets/2021_event.jpeg);
   margin-top: 20px;
 }
@@ -528,6 +529,21 @@ footer .container .small-footer-text .footer-text-desktop {
 
   #logo-text-desktop {
     display: inline;
+  }
+
+  .previous-events .container {
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+  .previous-events .container .previous-events-body {
+    display: flex;
+  }
+  .previous-events .container .previous-events-body .previous-event-img-container {
+    width: 40%;
+    height: 280px;
+  }
+  .previous-events .container .previous-events-body .prev-second-img {
+    margin: 0;
   }
 }
 
