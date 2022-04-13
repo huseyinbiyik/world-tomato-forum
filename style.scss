@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 $fontcocogoose: 'Cocogoose',
-sans-serif;
+  sans-serif;
 $fontlato: 'Lato',
-sans-serif;
+  sans-serif;
 $tomato: #ec5242;
 $black: #272a31;
 $gray: #d3d3d3;
@@ -190,7 +190,6 @@ header {
       -webkit-background-clip: text;
       color: transparent;
       width: 100%;
-
 
       .main-headline {
         font-size: 10vw;
@@ -513,12 +512,14 @@ footer {
       text-align: center;
     }
 
-    .main-headline {
-      font-size: 10vw;
-      font-weight: 700;
-      color: #ec5242;
-      text-transform: uppercase;
-      text-align: center;
+    .about-main-headline-container {
+      .main-headline {
+        font-size: 10vw;
+        font-weight: 700;
+        color: #ec5242;
+        text-transform: uppercase;
+        text-align: center;
+      }
     }
 
     .about-page-supporting-text-container {
@@ -710,9 +711,6 @@ footer {
       }
 
       .main-headline-container {
-
-
-
         .main-headline {
           font-size: 7vw;
         }
@@ -916,8 +914,10 @@ footer {
         display: none;
       }
 
-      .main-headline {
-        font-size: 5vw;
+      .about-main-headline-container {
+        .main-headline {
+          font-size: 5vw;
+        }
       }
 
       .about-page-supporting-text-container {

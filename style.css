@@ -412,7 +412,7 @@ footer .footer-container .small-footer-text .footer-text-desktop {
   color: #ec5242;
   text-align: center;
 }
-.about-page-section .about-page-container .main-headline {
+.about-page-section .about-page-container .about-main-headline-container .main-headline {
   font-size: 10vw;
   font-weight: 700;
   color: #ec5242;
@@ -734,7 +734,7 @@ footer .footer-container .small-footer-text .footer-text-desktop {
   .about-page-section .about-page-container .supporting-headline {
     display: none;
   }
-  .about-page-section .about-page-container .main-headline {
+  .about-page-section .about-page-container .about-main-headline-container .main-headline {
     font-size: 5vw;
   }
   .about-page-section .about-page-container .about-page-supporting-text-container .about-page-supporting-text {
