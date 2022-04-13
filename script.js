@@ -12,10 +12,12 @@ closeButton.addEventListener('click', () => {
 });
 
 let links = document.querySelectorAll('.link');
+
 Array.from(links).forEach(link => {
   link.addEventListener('click', () => {
     navigation.style.display = 'none';
-  })});
+  })
+});
 
 //mobile navigation
 
@@ -58,11 +60,11 @@ let speakersArray = [{
   },
 ]
 
- const speakers = document.querySelector('.speaker-container');
+const speakers = document.querySelector('.speaker-container');
 
 
-  for (let i = 0; i < speakersArray.length; i++) {
-    speakers.innerHTML += `
+for (let i = 0; i < speakersArray.length; i++) {
+  speakers.innerHTML += `
     <div class="speakers-card">
     <div class="speakers-image">
       <img src="${speakersArray[i].speakerImg}" alt="">
@@ -76,4 +78,4 @@ let speakersArray = [{
       </p>
     </div>
     </div>`
-  }
+}

@@ -4,6 +4,3 @@
 #Ignore Node Files
 node_modules
 
-#Sass files
-style.css.map
-style.scss
