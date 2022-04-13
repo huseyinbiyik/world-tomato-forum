@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 $fontcocogoose: 'Cocogoose',
-  sans-serif;
+sans-serif;
 $fontlato: 'Lato',
-  sans-serif;
+sans-serif;
 $tomato: #ec5242;
 $black: #272a31;
 $gray: #d3d3d3;
@@ -159,6 +159,7 @@ header {
       }
 
       #register-button {
+        text-decoration: none;
         border: 5px solid $tomato;
         padding: 10px;
       }
@@ -179,43 +180,48 @@ header {
   justify-content: center;
   align-items: center;
 
-  .main-headline {
-    font-size: 10vw;
-    font-weight: 700;
-    color: $tomato;
-    text-transform: uppercase;
-  }
+  .welcome-container {
+    margin-top: 4%;
+    margin-bottom: 4%;
 
-  .supporting-headline {
-    font-size: 5vw;
-    font-weight: 300;
-    color: $tomato;
-  }
-
-  .supporting-text-container {
-    font-size: 3.5vw;
-    margin-top: 20px;
-    width: 100%;
-    background-color: #f7f7f7;
-    border: 3px solid white;
-
-    .supporting-text {
-      color: $text-gray;
-      padding: 25px;
+    .main-headline {
+      font-size: 10vw;
+      font-weight: 700;
+      color: $tomato;
+      text-transform: uppercase;
     }
-  }
 
-  .date-text {
-    font-size: 8vw;
-    color: $text-gray;
-    margin-top: 20px;
-  }
+    .supporting-headline {
+      font-size: 5vw;
+      font-weight: 300;
+      color: $tomato;
+    }
 
-  .place-text {
-    font-size: 4vw;
-    font-weight: 400;
-    color: $text-gray;
-    margin-top: 8px;
+    .supporting-text-container {
+      font-size: 3.5vw;
+      margin-top: 20px;
+      width: 100%;
+      background-color: #f7f7f7;
+      border: 3px solid white;
+
+      .supporting-text {
+        color: $text-gray;
+        padding: 25px;
+      }
+    }
+
+    .date-text {
+      font-size: 8vw;
+      color: $text-gray;
+      margin-top: 20px;
+    }
+
+    .place-text {
+      font-size: 4vw;
+      font-weight: 400;
+      color: $text-gray;
+      margin-top: 8px;
+    }
   }
 }
 
@@ -420,9 +426,10 @@ header {
 //partners section ends
 
 //footer starts
-footer {
+footer{
   padding-top: 40px;
   padding-bottom: 40px;
+  
 
   .footer-container {
     display: flex;
@@ -447,6 +454,39 @@ footer {
     }
   }
 }
+//about section footer
+.about-footer {
+  background-color: #272a31;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  
+
+  .footer-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    #footer-logo {
+      width: 50%;
+    }
+
+    .small-footer-text {
+      font-size: 2vh;
+      text-align: left;
+      color: $text-gray;
+      line-height: 20px;
+      color: white;
+
+      .footer-text-desktop {
+        display: none;
+        color: white;
+      }
+    }
+  }
+
+}
 
 //footer ends
 
@@ -457,36 +497,55 @@ footer {
   background-position: center;
   text-align: center;
 
-  .about-page-supporting-text-container {
-    background-color: white;
-    border-color: $gray;
-    border-width: 2px;
+  .about-page-container {
+    margin-top: 5%;
+    .supporting-headline {
+      font-size: 5vw;
+      font-weight: 300;
+      color: #ec5242;
+      text-align: center;
+    }
 
-    .about-page-supporting-text {
+    .main-headline {
+      font-size: 10vw;
+      font-weight: 700;
+      color: #ec5242;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    .about-page-supporting-text-container {
+      background-color: white;
+      border: 2px solid $gray;
+      margin-top: 20px;
+
+      .about-page-supporting-text {
+        font-size: 2.3vh;
+        color: $text-gray;
+        line-height: 30px;
+        padding: 25px;
+
+        .headline-text-desktop {
+          display: none;
+        }
+      }
+    }
+
+    .contact-us-text {
+      text-align: center;
+      margin-top: 30px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 60%;
       font-size: 2.5vh;
       color: $text-gray;
       line-height: 30px;
-
-      .headline-text-desktop {
-        display: none;
-      }
     }
-  }
 
-  .contact-us-text {
-    text-align: center;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    font-size: 2.5vh;
-    color: $text-gray;
-    line-height: 30px;
-  }
-
-  #contact-email {
-    color: $black;
-    font-weight: 600;
+    #contact-email {
+      color: $black;
+      font-weight: 600;
+    }
   }
 }
 
@@ -579,13 +638,11 @@ footer {
         justify-content: center;
         align-items: center;
         margin: 0 auto;
-        background-color: rgba(255, 79, 56, 0.9);
         background-image: url(assets/2022_event.jpeg);
         width: 80%;
         height: 280px;
         background-position: center;
         background-size: cover;
-        background-blend-mode: multiply;
         text-decoration: none;
 
         p {
@@ -640,6 +697,7 @@ footer {
     .welcome-container {
       text-align: left;
       width: 100%;
+
 
       .supporting-headline {
         font-size: 3.5vw;
@@ -784,7 +842,7 @@ footer {
     .footer-container {
       display: flex;
       flex-wrap: nowrap;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
       gap: 50px;
 
@@ -796,6 +854,34 @@ footer {
         font-size: 2vh;
         text-align: left;
         color: $text-gray;
+        line-height: 20px;
+
+        .footer-text-desktop {
+          display: inline;
+        }
+      }
+    }
+  }
+
+  .about-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    .footer-container {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+
+      #footer-logo {
+        width: 30%;
+      }
+
+      .small-footer-text {
+        font-size: 2vh;
+        text-align: left;
+        color: white;
         line-height: 20px;
 
         .footer-text-desktop {
@@ -851,7 +937,7 @@ footer {
           margin: 0 auto;
         }
 
-        .our-logo img {
+        #our-logo-image {
           width: 60%;
           padding: 30px;
           border: 1px solid $gray;
