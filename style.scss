@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 $fontcocogoose: 'Cocogoose',
-sans-serif;
+  sans-serif;
 $fontlato: 'Lato',
-sans-serif;
+  sans-serif;
 $tomato: #ec5242;
 $black: #272a31;
 $gray: #d3d3d3;
@@ -41,7 +41,6 @@ header {
   padding-left: 30px;
   padding-top: 16px;
 
-
   .hamburger-menu {
     img {
       width: 25px;
@@ -49,8 +48,45 @@ header {
   }
 }
 
-
 // header mobile ends
+//mobile nav
+.mobile-nav {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: $gray;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(assets/about_page_bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+
+  .close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+
+    img {
+      width: 40px;
+    }
+  }
+
+  .mobile-nav-ul {
+    li {
+      margin-top: 20px;
+
+      a {
+        font-size: 48px;
+        text-decoration: none;
+      }
+    }
+  }
+}
 
 //header desktop starts
 .toolbar {
@@ -92,15 +128,13 @@ header {
       }
     }
   }
-
-  ;
 }
 
 .nav-menu-container {
   display: none;
-  box-shadow: 0px 6px 12px 4px rgba(0, 0, 0, 0.18);
-  -webkit-box-shadow: 0px 6px 12px 4px rgba(0, 0, 0, 0.18);
-  -moz-box-shadow: 0px 6px 12px 4px rgba(0, 0, 0, 0.18);
+  box-shadow: 0 6px 12px 4px rgba(0, 0, 0, 0.18);
+  -webkit-box-shadow: 0 6px 12px 4px rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: 0 6px 12px 4px rgba(0, 0, 0, 0.18);
   height: 70px;
   align-items: center;
   justify-content: space-between;
@@ -118,9 +152,8 @@ header {
       gap: 3vw;
       align-items: center;
 
-      li {
-
-        a {
+      .desktop-menu-list {
+        .desktop-menu-link {
           text-decoration: none;
         }
       }
@@ -130,7 +163,6 @@ header {
         padding: 10px;
       }
     }
-
   }
 }
 
@@ -219,12 +251,6 @@ header {
     margin-top: 20px;
     margin-bottom: 50px;
 
-    .program-cards:hover {
-
-      border: 1px solid white;
-
-    }
-
     .program-cards {
       display: flex;
       align-items: center;
@@ -244,6 +270,9 @@ header {
       }
     }
 
+    .program-cards:hover {
+      border: 1px solid white;
+    }
   }
 
   .join-button {
@@ -255,8 +284,7 @@ header {
     text-decoration: none;
     width: 75%;
 
-
-    p {
+    #join-button-text {
       padding: 35px 30px;
       font-size: 3vh;
     }
@@ -274,13 +302,13 @@ header {
   text-align: center;
   background-color: white;
   padding-bottom: 100px;
-  
 
   .container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     row-gap: 40px;
+
     .speakers-section-header {
       margin-top: 50px;
       margin-bottom: 50px;
@@ -302,7 +330,7 @@ header {
       display: flex;
       align-items: center;
       justify-content: center;
-      column-gap: 20px; 
+      column-gap: 20px;
       width: 100%;
 
       .speakers-image {
@@ -358,14 +386,13 @@ header {
   padding-top: 40px;
   padding-bottom: 40px;
 
-
   .partners-section-header {
     text-align: center;
     position: static;
     padding: 0;
     color: #f5f5f5;
 
-    h2 {
+    #partners-header-title {
       font-weight: 600;
     }
 
@@ -383,11 +410,9 @@ header {
     flex-wrap: wrap;
     gap: 40px;
 
-    img {
+    .partners-logo {
       width: auto;
       height: 50px;
-
-
     }
   }
 }
@@ -399,14 +424,14 @@ footer {
   padding-top: 40px;
   padding-bottom: 40px;
 
-  .container {
+  .footer-container {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     gap: 20px;
 
-    img {
+    #footer-logo {
       width: 50%;
     }
 
@@ -419,12 +444,9 @@ footer {
       .footer-text-desktop {
         display: none;
       }
-
     }
   }
 }
-
-
 
 //footer ends
 
@@ -462,7 +484,7 @@ footer {
     line-height: 30px;
   }
 
-  a {
+  #contact-email {
     color: $black;
     font-weight: 600;
   }
@@ -480,7 +502,7 @@ footer {
     padding: 0;
     text-align: center;
 
-    h2 {
+    #logo-title {
       color: $black;
     }
 
@@ -488,7 +510,6 @@ footer {
       width: 30px;
       margin: 15px auto;
       border-color: $tomato;
-
     }
   }
 
@@ -496,20 +517,19 @@ footer {
     text-align: center;
     margin-top: 30px;
 
-    p {
+    #our-logo-text {
       font-size: 2.5vh;
       color: $text-gray;
       line-height: 30px;
     }
 
-    img {
+    #our-logo-image {
       width: 100%;
       padding: 30px;
       border: 1px solid $gray;
       box-sizing: border-box;
       margin-top: 40px;
       margin-bottom: 40px;
-
     }
   }
 }
@@ -530,7 +550,6 @@ footer {
     text-align: center;
 
     .previous-events-header {
-
       position: static;
       padding: 0;
       text-align: center;
@@ -543,22 +562,17 @@ footer {
         width: 30px;
         margin: 15px auto;
         border-color: $tomato;
-
       }
     }
 
-    p {
+    #previous-events-supporting {
       color: $text-gray;
       margin-top: 20px;
       margin-bottom: 30px;
-
     }
 
     .previous-events-body {
       text-align: center;
-
-
-
 
       .previous-event-img-container {
         display: flex;
@@ -585,13 +599,11 @@ footer {
         }
       }
 
-
       .prev-second-img {
         background-image: url(assets/2021_event.jpeg);
         margin-top: 20px;
       }
     }
-
   }
 }
 
@@ -671,7 +683,6 @@ footer {
         padding-right: 0;
         gap: 15px;
 
-
         p {
           text-align: center;
           width: 70%;
@@ -689,14 +700,12 @@ footer {
       margin: 0 auto;
       display: inline;
     }
-
   }
 
   //speaker section starts
   .speakers-section {
     text-align: center;
     background-color: white;
-    
 
     .container {
       .speakers-section-header {
@@ -768,20 +777,18 @@ footer {
 
   //speaker section ends
 
-
-
   footer {
     padding-top: 60px;
     padding-bottom: 60px;
 
-    .container {
+    .footer-container {
       display: flex;
       flex-wrap: nowrap;
       justify-content: space-between;
       align-items: center;
       gap: 50px;
 
-      img {
+      #footer-logo {
         width: 30%;
       }
 
@@ -794,11 +801,9 @@ footer {
         .footer-text-desktop {
           display: inline;
         }
-
       }
     }
   }
-
 
   //main page index.html responsive ends here
 
@@ -806,9 +811,6 @@ footer {
   .active {
     color: $tomato;
   }
-
-
-
 
   //about page starts
   .about-page-section {
@@ -822,7 +824,6 @@ footer {
       }
 
       .about-page-supporting-text-container {
-
         .about-page-supporting-text {
           padding: 3.5vw;
           font-size: 2.3vh;
@@ -843,41 +844,34 @@ footer {
     padding-top: 80px;
     padding-bottom: 60px;
 
+    .container {
+      .our-logo-body {
+        p {
+          width: 70%;
+          margin: 0 auto;
+        }
 
-
-    .our-logo-body {
-
-      p {
-
-        width: 70%;
-        margin: 0 auto;
-      }
-
-      img {
-        width: 60%;
-        padding: 30px;
-        border: 1px solid $gray;
-        box-sizing: border-box;
-        margin-top: 40px;
-        margin-bottom: 40px;
-
+        .our-logo img {
+          width: 60%;
+          padding: 30px;
+          border: 1px solid $gray;
+          box-sizing: border-box;
+          margin-top: 40px;
+          margin-bottom: 40px;
+        }
       }
     }
   }
 
-
   #logo-text-desktop {
     display: inline;
   }
-
-
 
   //previous events section starts
   .previous-events {
     .container {
       padding-top: 80px;
       padding-bottom: 60px;
-
 
       .previous-events-body {
         display: flex;
@@ -893,51 +887,11 @@ footer {
         .prev-second-img {
           margin: 0;
         }
-
-
       }
     }
   }
 
   .mobile-nav {
     display: none;
-  }
-
-}
-
-//mobile nav
-.mobile-nav {
-  display: none;
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  background-color: $gray;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-image: url(assets/about_page_bg.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: auto;
-
-  .close-button {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 50px;
-    height: 50px;
-
-    img {
-      width: 40px;
-    }
-  }
-
-  li {
-    margin-top: 20px;
-
-    a {
-      font-size: 48px;
-      text-decoration: none;
-    }
   }
 }

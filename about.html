@@ -33,10 +33,10 @@
       <a class="logo-container" href="index.html"><img class="logo" src="assets/world_tomato_forum_logo.svg" alt=""></a>
       <nav>
         <ul>
-          <li><a class="active" href="about.html">About</a></li>
-          <li><a href="index.html#program">Program</a></li>
-          <li><a href="index.html#speakers">Speakers</a></li>
-          <li><a href="index.html#partners">Partners</a></li>
+          <li class="desktop-menu-list"><a class="active desktop-menu-link" href="about.html">About</a></li>
+          <li class="desktop-menu-list"><a class="desktop-menu-link" href="index.html#program">Program</a></li>
+          <li class="desktop-menu-list"><a class="desktop-menu-link" href="index.html#speakers">Speakers</a></li>
+          <li class="desktop-menu-list"><a class="desktop-menu-link" href="index.html#partners">Partners</a></li>
           <li id="register-button"><a href="register.com">Register</a></li>
         </ul>
       </nav>
@@ -52,7 +52,7 @@
     <a class="close-button" href="#">
       <img src="assets/close_button.svg" alt="">
     </a>
-    <ul>
+    <ul class="mobile-nav-ul">
       <li><a class="link" href="index.html">Home</a></li>
       <li><a class="active link" href="about.html">About</a></li>
       <li><a class="link" href="index.html#program">Program</a></li>
@@ -80,24 +80,24 @@
       </div>
       <p class="contact-us-text">Please contact us with email for any further questions about World Tomato Forum 2023!
       </p>
-      <a href="#">wtfforum2023@wtf.com</a>
+      <a id="contact-email" href="#">wtfforum2023@wtf.com</a>
     </div>
   </section>
   <!-- logo section -->
   <section class="our-logo">
     <div class="container">
       <header class="our-logo-header">
-        <h2>The World Tomato Forum 2023 Logo</h2>
+        <h2 id="logo-title">The World Tomato Forum 2023 Logo</h2>
         <hr class="our-logo-hr">
       </header>
       <div class="our-logo-body">
-        <p>The logo of The World Tomato Forum 2023 was not decided through the logo competition in 2022.<span
+        <p id="our-logo-text">The logo of The World Tomato Forum 2023 was not decided through the logo competition in 2022.<span
             id="logo-text-desktop">
             The logo was designed by a group of students from the University of Sevilla. They were awarded with 1 ton of
             organic tomatoes.
           </span>
         </p>
-        <img src="assets/world_tomato_forum_logo.svg" alt="">
+        <img id="our-logo-image" src="assets/world_tomato_forum_logo.svg" alt="">
       </div>
     </div>
   </section>
@@ -110,7 +110,7 @@
         <h2>See the past WT Forum Events</h2>
         <hr class="our-logo-hr">
       </header>
-      <p>Take a look at the our past two events!</p>
+      <p id="previous-events-supporting">Take a look at the our past two events!</p>
       <div class="previous-events-body">
 
         <a class="previous-event-img-container" href="#">
@@ -135,15 +135,15 @@
     <div class="container">
 
       <header class="partners-section-header">
-        <h2>Partners</h2>
+        <h2 id="partner-header-title">Partners</h2>
         <hr class="partners-section-header-hr">
       </header>
       <div class="partners-body-container">
-        <img src="assets/partners_logo/partners_bill_melinda_gates.png" alt="">
-        <img src="assets/partners_logo/partners_eu_bw.png" alt="">
-        <img src="assets/partners_logo/partners_generalitat_valenciana_bw.png" alt="">
-        <img src="assets/partners_logo/partners_spanish_consulate_bw.png" alt="">
-        <img src="assets/partners_logo/partners_wef_bw.png" alt="">
+        <img class="partners-logo" src="assets/partners_logo/partners_bill_melinda_gates.png" alt="">
+        <img class="partners-logo" src="assets/partners_logo/partners_eu_bw.png" alt="">
+        <img class="partners-logo" src="assets/partners_logo/partners_generalitat_valenciana_bw.png" alt="">
+        <img class="partners-logo" src="assets/partners_logo/partners_spanish_consulate_bw.png" alt="">
+        <img class="partners-logo" src="assets/partners_logo/partners_wef_bw.png" alt="">
       </div>
     </div>
   </section>
@@ -151,8 +151,8 @@
 
 
   <footer>
-    <div class="container">
-      <img src="assets/world_tomato_forum_logo.svg" alt="">
+    <div class="container footer-container">
+      <img id="footer-logo" src="assets/world_tomato_forum_logo.svg" alt="">
       <p class="small-footer-text">2023 World Tomato Forum. All Rights Reserved. <br><span class="footer-text-desktop">
         세계 토마토 포럼은 세계 포럼의 기초입니다. 저작권 문제는 이메일 주소로 문의하시기 바랍니다.
         </span></p>
