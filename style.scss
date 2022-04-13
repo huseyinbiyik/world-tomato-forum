@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 $fontcocogoose: 'Cocogoose',
-sans-serif;
+  sans-serif;
 $fontlato: 'Lato',
-sans-serif;
+  sans-serif;
 $tomato: #ec5242;
 $black: #272a31;
 $gray: #d3d3d3;
@@ -426,10 +426,9 @@ header {
 //partners section ends
 
 //footer starts
-footer{
+footer {
   padding-top: 40px;
   padding-bottom: 40px;
-  
 
   .footer-container {
     display: flex;
@@ -459,7 +458,6 @@ footer{
   background-color: #272a31;
   padding-top: 40px;
   padding-bottom: 40px;
-  
 
   .footer-container {
     display: flex;
@@ -475,7 +473,6 @@ footer{
     .small-footer-text {
       font-size: 2vh;
       text-align: left;
-      color: $text-gray;
       line-height: 20px;
       color: white;
 
@@ -485,7 +482,6 @@ footer{
       }
     }
   }
-
 }
 
 //footer ends
@@ -499,6 +495,7 @@ footer{
 
   .about-page-container {
     margin-top: 5%;
+
     .supporting-headline {
       font-size: 5vw;
       font-weight: 300;
@@ -697,7 +694,6 @@ footer{
     .welcome-container {
       text-align: left;
       width: 100%;
-
 
       .supporting-headline {
         font-size: 3.5vw;
