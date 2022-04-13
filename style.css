@@ -145,10 +145,17 @@ header .hamburger-menu img {
   margin-top: 4%;
   margin-bottom: 4%;
 }
-.welcome .welcome-container .main-headline {
+.welcome .welcome-container .main-headline-container {
+  background-image: url(assets/2022_event.jpeg);
+  background-size: contain;
+  -webkit-background-clip: text;
+  color: transparent;
+  width: 100%;
+}
+.welcome .welcome-container .main-headline-container .main-headline {
   font-size: 10vw;
   font-weight: 700;
-  color: #ec5242;
+  color: transparent;
   text-transform: uppercase;
 }
 .welcome .welcome-container .supporting-headline {
@@ -568,16 +575,8 @@ footer .footer-container .small-footer-text .footer-text-desktop {
   .welcome .welcome-container .supporting-headline {
     font-size: 3.5vw;
   }
-  .welcome .welcome-container .main-headline-container {
-    background-image: url(assets/2022_event.jpeg);
-    background-size: contain;
-    -webkit-background-clip: text;
-    color: transparent;
-    width: 100%;
-  }
   .welcome .welcome-container .main-headline-container .main-headline {
     font-size: 7vw;
-    color: transparent;
   }
   .welcome .welcome-container .supporting-text-container {
     width: 45vw;

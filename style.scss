@@ -184,11 +184,20 @@ header {
     margin-top: 4%;
     margin-bottom: 4%;
 
-    .main-headline {
-      font-size: 10vw;
-      font-weight: 700;
-      color: $tomato;
-      text-transform: uppercase;
+    .main-headline-container {
+      background-image: url(assets/2022_event.jpeg);
+      background-size: contain;
+      -webkit-background-clip: text;
+      color: transparent;
+      width: 100%;
+
+
+      .main-headline {
+        font-size: 10vw;
+        font-weight: 700;
+        color: transparent;
+        text-transform: uppercase;
+      }
     }
 
     .supporting-headline {
@@ -701,16 +710,11 @@ footer {
       }
 
       .main-headline-container {
-        background-image: url(assets/2022_event.jpeg);
-        background-size: contain;
-        -webkit-background-clip: text;
-        color: transparent;
-        width: 100%;
-        
+
+
 
         .main-headline {
           font-size: 7vw;
-          color: transparent;
         }
       }
 
