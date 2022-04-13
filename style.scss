@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 $fontcocogoose: 'Cocogoose',
-  sans-serif;
+sans-serif;
 $fontlato: 'Lato',
-  sans-serif;
+sans-serif;
 $tomato: #ec5242;
 $black: #272a31;
 $gray: #d3d3d3;
@@ -453,6 +453,7 @@ footer {
     }
   }
 }
+
 //about section footer
 .about-footer {
   background-color: #272a31;
@@ -699,8 +700,18 @@ footer {
         font-size: 3.5vw;
       }
 
-      .main-headline {
-        font-size: 7vw;
+      .main-headline-container {
+        background-image: url(assets/2022_event.jpeg);
+        background-size: contain;
+        -webkit-background-clip: text;
+        color: transparent;
+        width: 100%;
+        
+
+        .main-headline {
+          font-size: 7vw;
+          color: transparent;
+        }
       }
 
       .supporting-text-container {
