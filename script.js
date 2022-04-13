@@ -62,7 +62,7 @@ const speakersArray = [{
 
 const speakers = document.querySelector('.speaker-container');
 
-for (let i = 0; i < speakersArray.length; i + 1) {
+for (let i = 0; i < speakersArray.length; i += 1) {
   speakers.innerHTML += `
     <div class="speakers-card">
     <div class="speakers-image">
