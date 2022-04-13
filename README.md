@@ -16,7 +16,7 @@
 
 ## Video Presentation
 
-[Video Presentation Link](https://huseyinbiyik.github.io/world-tomato-forum-1st-capstone/)
+[Video Presentation Link](https://www.loom.com/share/f01b8dab0ca249f78f0e5d58a2926659)
 
 ## Getting Started
 
