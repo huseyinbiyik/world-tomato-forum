@@ -16,6 +16,10 @@ a {
   color: inherit;
 }
 
+a:hover {
+  color: #ec5242;
+}
+
 .container {
   padding-left: 16px;
   padding-right: 16px;

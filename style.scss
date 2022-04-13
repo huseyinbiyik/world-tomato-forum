@@ -26,6 +26,10 @@ a {
   color: inherit;
 }
 
+a:hover {
+  color: $tomato;
+}
+
 .container {
   padding-left: 16px;
   padding-right: 16px;
