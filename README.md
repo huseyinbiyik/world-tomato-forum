@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://huseyinbiyik.github.io/world-tomato-forum-1st-capstone/)
+[Live Demo Link](https://huseyinbiyik.github.io/world-tomato-forum)
 
 ## Video Presentation
 
