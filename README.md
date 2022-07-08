@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# world-tomato-forum
+# World Tomato Forum 🍅
 
 > First capstone project of Microverse. This  project includes a web site of World Tomato Forum, which is a fake physical forum website. It has information about the forum, speakers, program, about.  
 
